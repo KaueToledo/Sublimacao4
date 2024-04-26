@@ -1,0 +1,130 @@
+.telacurso{
+    background-image: url("fotoatualizada.jpg");
+    background-size: 100%;
+    background-size: 100%;
+}
+
+nav{
+    padding-top: 10em;
+
+}
+
+h1{
+    font-family: monospace; 
+    margin: auto;
+    text-align: center;
+    font-size: 39px;
+}
+
+a{
+    text-decoration:none;
+    color: white;
+}
+
+.q1,.q2,.q3,.q4{
+    margin: auto;
+    width: 500px;
+    background-color: #FF7F50;
+    border-radius: 40px;
+    padding: 4px;
+    text-align: center;
+    font-size: 20px;
+    font-family: monospace; 
+    transition: background-color 0.7s ease, color 0.5s ease, transform 0.8s;
+    color: black;
+}
+.breve{ 
+    margin: auto;
+    text-align: center;
+    background-color: black;
+    color: white;
+    padding-top: 10%;
+}
+.q1:hover{
+    background-color: #ff571a;
+    color: black;
+    transform: scale(1.1)
+}
+
+.q2:hover{
+    background-color: #ff571a;
+    color: white;
+    transform: scale(1.1)
+}
+.q3:hover{
+    background-color: #ff571a;
+    color: white;
+    transform: scale(1.1)
+}
+.q4:hover{
+    background-color: #ff571a;
+    transform: scale(1.1);
+}
+
+.voltar{
+    text-align: center;
+}
+
+button{
+    margin: auto;
+    width: 110px ;
+    height: 30px ;
+    background-color: #FF7F50;
+    font-style: monospace ;
+    border-radius: 14px;
+    border: solid 0px;
+    color: white;
+    transition: background-color 0.5s ease, color 0.5s ease, transform 0.5s;
+    font-size: 26px;
+}
+button:hover{
+    background-color: #d652d6	;
+    transform: scale(1.1)
+}
+
+#container{
+    padding-top: 6em;
+}
+
+.cursos{
+    width: 280px;
+
+}
+
+
+
+@media screen and (max-width: 768px){
+    .telacurso{
+        display: block;
+        background-image: url("fotocelular.jpg");
+    }
+
+    .breve{
+        display: block;
+        margin: auto;
+        text-align: center;
+        background-color: black;
+        color: white;
+        padding-top: 35%;
+    }
+    
+    h1{
+        width: 15em;
+        font-size: 18px;
+    }
+    .q1,.q2,.q3,.q4{
+        width: 20em;
+        font-size: 11px;
+        background-color: #4B0082;
+    }
+
+    .q1:hover,.q2:hover,.q3:hover,.q4:hover{
+        background-color: #7B68EE;
+    transform: scale(1.1);
+    }
+
+    button{
+        background-color: #4B0082;
+    }
+
+}
